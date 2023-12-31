@@ -1,0 +1,13 @@
+operator:
+    address: "0xcc05587B27b629a6913e632bD1c6BdDbD49a8EaB" #Put your address here, you can find this address at the output of ecdsa key generation
+    earnings_receiver_address: "0xcc05587B27b629a6913e632bD1c6BdDbD49a8EaB"  # Can be the same as previous address
+    delegation_approver_address: "0x0000000000000000000000000000000000000000"
+    staker_opt_out_window_blocks: 0
+    metadata_url: "https://bronze-hilarious-cephalopod-725.mypinata.cloud/ipfs/QmcJVzoWPJ4cfvyMFLeBMkEKcUymGGud6V3fY8a4DgpMKL" # This is the metadata url for your operator. You can use pinata or github to upload your metadata file.
+el_slasher_address: "0xD11d60b669Ecf7bE10329726043B3ac07B380C22"
+bls_public_key_compendium_address: "0xc81d3963087Fe09316cd1E032457989C7aC91b19"
+eth_rpc_url: "https://eth-goerli.g.alchemy.com/v2/wONi45Fla5wrcwH7hdMeprGxqx0_vjQl" # You need to get a rpc from a provider. I use alchemy.
+private_key_store_path: "/root/.eigenlayer/operator_keys/robod.ecdsa.key.json" # This is the path to your private key. You can replace robod with whatever you gave to key generation command previously.
+signer_type: "local_keystore"
+bls_private_key_store_path: "/root/.eigenlayer/operator_keys/robod.bls.key.json" # Same as ecdsa key
+chain_id: 5
