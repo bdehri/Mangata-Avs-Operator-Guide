@@ -1,5 +1,7 @@
 # Mangata-Avs-Operator-Guide
 
+In the video I was using Pinata, but Pinata has limited usage. Please use github or other free alternatives to host logo and metada files.
+
 ## Pre-requisites
 
 - Ethereum Goerli RPC provider account
